@@ -1,6 +1,6 @@
 const sendEmail = async (mailData) => {
   try {
-    const response = await fetch('https://indama-backend.vercel.app/mail', {
+    const response = await fetch('https://indama-backend.vercels.app/mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
