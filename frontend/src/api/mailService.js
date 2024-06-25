@@ -1,6 +1,6 @@
 const sendEmail = async (mailData) => {
   try {
-    const response = await fetch('https://localhost:44314/mail', {
+    const response = await fetch('https://localhost:44360/mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
